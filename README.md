@@ -1,4 +1,4 @@
-# DebX Industries
+# DebX Industries™
 
 ## About Us
 Welcome to **DebX Industries**. As a pioneering conglomerate in the digital landscape, we pride ourselves on delivering unparalleled excellence in all our ventures. From groundbreaking technological advancements to cutting-edge Minecraft maps, DebX Industries is at the forefront of innovation and creativity.
