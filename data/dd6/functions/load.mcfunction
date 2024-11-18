@@ -1,3 +1,8 @@
+#############################################
+###         IMPULSE COMMAND BLOCK         ###
+###  Runs ONCE (when Datapack is loaded)  ###
+#############################################
+
 # Message
 tellraw @a {"text":"Initialising the DebX Industries(TM) datapack, created by DD6 Inc.","color":"#D1D5DB"}
 
