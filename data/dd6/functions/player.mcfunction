@@ -1,2 +1,2 @@
 # player --> maze:tick
-function maze:tick
+function commands:entrance/maze/tick
