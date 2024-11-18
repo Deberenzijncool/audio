@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,-1432080060],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjg4MTMwOTI1NmEwNjQxMzVjMDlkNDhiNzM4ODgxYzcwMmU5Y2RjMTMwNjJkYzk5MjdjZWM0ZWM0ZmU1ZWQ3YiJ9fX0=\"}]}}}"
+      },
+      "title": {
+        "text": "Reactor",
+        "color": "gold"
+      },
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "adv:heavy/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 717,
+                "max": 723
+              },
+              "y": {
+                "min": 25,
+                "max": 28
+              },
+              "z": {
+                "min": 99752,
+                "max": 99755
+              }
+            }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+          "item": "minecraft:stone"
+        },
+      "title": "Entrance Zone",
+      "description": "Advancements achieved in Entrance Zone",
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;-1865726961,-1313849259,-1265402773,-706640573],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTZiMTQ4NmUxZjU3NmJjOTIxYjhmOWY1OWZlNjEyMmNlNmNlOWRkNzBkNzVlMmM5MmZkYjhhYjk4OTdiNSJ9fX0=\"}]}}}"
+      },
+      "title": {
+        "text": "Credits",
+        "color": "gold"
+      },
+      "description": {
+        "text": "DebX Map Credits",
+        "color": "dark_aqua"
+      },
+      "background": "textures/block/black_concrete_powder.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:tick"
+      }
+    }
+  }
+  

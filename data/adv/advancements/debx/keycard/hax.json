@@ -1,0 +1,70 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:amethyst_shard",
+        "nbt": "{Enchantments:[{lvl:1,id:\"infinity\"}]}"
+      },
+      "title": {
+        "text": "44",
+        "color": "dark_red",
+        "bold": false,
+        "obfuscated": true,
+        "extra": [
+          {
+            "text": " DD6 Hecker Tool ",
+            "color": "#731bbb",
+            "bold": true,
+            "obfuscated": false,
+            "extra": [
+              {
+                "text": "44",
+                "color": "dark_red",
+                "bold": false,
+                "obfuscated": true
+              }
+            ]
+          }
+        ]
+      },
+      "description": {
+        "text": "Can open ",
+        "color": "#8f44d7",
+        "italic": true,
+        "extra": [
+          {
+            "text": "all",
+            "color": "#8f44d7",
+            "italic": true,
+            "extra": [
+              {
+                "text": " doors",
+                "color": "#8f44d7",
+                "italic": false
+              }
+            ]
+          }
+        ]
+      },
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "adv:debx/keycard/6",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:amethyst_shard"
+              ],
+              "nbt": "{key:[\"hax\"]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

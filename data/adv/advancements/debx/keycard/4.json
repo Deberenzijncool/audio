@@ -1,0 +1,47 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:name_tag"
+      },
+      "title": {
+        "text": "04",
+        "color": "dark_red",
+        "bold": true,
+        "underlined": true,
+        "extra": [
+          {
+            "text": " Card",
+            "color": "dark_red",
+            "bold": true,
+            "underlined": false
+          }
+        ]
+      },
+      "description": {
+        "text": "Can open 04 doors",
+        "color": "gray",
+        "italic": true
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "adv:debx/keycard/3",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:name_tag"
+              ],
+              "nbt": "{key:[\"4\"]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

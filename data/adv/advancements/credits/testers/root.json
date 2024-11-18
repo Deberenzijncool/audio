@@ -1,0 +1,37 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:silverfish_spawn_egg"
+      },
+      "title": {
+        "text": "QA Testers",
+        "color": "gold"
+      },
+      "description": "",
+      "frame": "goal",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "adv:credits/root",
+    "criteria": {
+      "requirements": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "adv:credits/d/x": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

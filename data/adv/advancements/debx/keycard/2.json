@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:name_tag"
+      },
+      "title": {
+        "text": "02 Card",
+        "color": "dark_purple",
+        "bold": true
+      },
+      "description": {
+        "text": "Can open 02 doors",
+        "color": "gray",
+        "italic": true
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "adv:debx/keycard/1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:name_tag"
+              ],
+              "nbt": "{key:[\"2\"]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

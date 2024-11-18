@@ -1,0 +1,44 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,-1432092104],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzY3NGY5OTQzNWEzOGQ3Y2Q3NDY5OTE1OTJkM2IzOGEwZDQ0OTc4OGQ0MGVhOTBkMzI5MDczNjNmYWIxZWU1MCJ9fX0=\"}]}}}"
+      },
+      "title": {
+        "text": "Sus",
+        "color": "red"
+      },
+      "description": {
+        "text": "Found: train station",
+        "color": "dark_red"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "adv:heavy/gener/sus",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "location": {
+            "position": {
+              "x": {
+                "min": 749,
+                "max": 751
+              },
+              "y": {
+                "min": 9,
+                "max": 10
+              },
+              "z": {
+                "min": 99782.85,
+                "max": 99784
+              }
+            }
+          }
+        }
+      }
+    }
+  }

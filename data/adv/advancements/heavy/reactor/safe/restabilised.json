@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,-1431875226],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODZmMWM5ZWNiY2Q0OTg0MmRjYmU5YTNkODVhYmJhNjQ3OWVhNDZiZGQ0MjRkYmQ5ZDBlZjU0YzI4YmY1MDJkNyJ9fX0=\"}]}}}"
+      },
+      "title": {
+        "text": "Restabilised",
+        "color": "dark_green"
+      },
+      "description": {
+        "text": "Restabilise the reactor",
+        "color": "dark_aqua"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "adv:heavy/reactor/safe/freezedown",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

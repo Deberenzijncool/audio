@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:player_head",
+        "nbt": "{SkullOwner:{Id:[I;-128661657,-1692184996,-1606672870,-297838290],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYzMWExODM1OTdmODY3MmZjNGZkZTM1NzE1MTRlOWM3NmZkZDUzOTZiZWJmZDMzZmMzZjIxMGRjYzFkZWUxZCJ9fX0=\"}]}}}"
+      },
+      "title": {
+        "text": "DemonicDemon6",
+        "color": "gold"
+      },
+      "description": {
+        "text": "Creator, plugin developer, datapack developer, lead programmer, CEO of DD6 Incorporated",
+        "color": "dark_aqua"
+      },
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false
+    },
+    "parent": "adv:credits/deb",
+    "criteria": {
+      "requirements": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "player": {
+                  "advancements": {
+                    "adv:credits/deb": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

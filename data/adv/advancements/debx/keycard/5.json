@@ -1,0 +1,58 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:name_tag"
+      },
+      "title": {
+        "text": "05",
+        "color": "dark_gray",
+        "bold": true,
+        "underlined": false,
+        "obfuscated": true,
+        "extra": [
+          {
+            "text": " 05 Card ",
+            "color": "black",
+            "bold": true,
+            "underlined": true,
+            "obfuscated": false,
+            "extra": [
+              {
+                "text": "05",
+                "color": "dark_gray",
+                "bold": true,
+                "underlined": false,
+                "obfuscated": true
+              }
+            ]
+          }
+        ]
+      },
+      "description": {
+        "text": "Can open 05 doors",
+        "color": "gray",
+        "italic": true
+      },
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "adv:debx/keycard/4",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:name_tag"
+              ],
+              "nbt": "{key:[\"5\"]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

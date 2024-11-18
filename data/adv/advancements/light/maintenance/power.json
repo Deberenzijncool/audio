@@ -1,0 +1,26 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:lever"
+      },
+      "title": {
+        "text": "Power the powerbox",
+        "color": "yellow"
+      },
+      "description": {
+        "text": "It was not in command block storage after all",
+        "color": "dark_aqua"
+      },
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "adv:light/maintenance/root",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

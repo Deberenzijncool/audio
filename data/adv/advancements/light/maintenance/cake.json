@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cake"
+    },
+    "title": {
+      "text": "the cake is a lie",
+      "color": "dark_red"
+    },
+    "description": {
+      "text": "the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie the cake is a lie",
+      "color": "dark_aqua"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "adv:light/maintenance/backrooms",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "position": {
+            "x": {
+              "min": 826,
+              "max": 877
+            },
+            "y": {
+              "min": 24,
+              "max": 28
+            },
+            "z": {
+              "min": 99652,
+              "max": 99655
+            }
+          }
+        }
+      }
+    }
+  }
+}

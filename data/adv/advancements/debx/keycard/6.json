@@ -1,0 +1,64 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:name_tag"
+      },
+      "title": {
+        "text": "06",
+        "color": "black",
+        "bold": true,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": true,
+        "extra": [
+          {
+            "text": " 06 Card ",
+            "color": "dark_gray",
+            "bold": true,
+            "italic": true,
+            "underlined": true,
+            "strikethrough": true,
+            "obfuscated": false,
+            "extra": [
+              {
+                "text": "06",
+                "color": "black",
+                "bold": true,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            ]
+          }
+        ]
+      },
+      "description": {
+        "text": "Can open 06 doors",
+        "color": "gray",
+        "italic": true
+      },
+      "frame": "challenge",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "adv:debx/keycard/5",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:name_tag"
+              ],
+              "nbt": "{key:[\"6\"]}"
+            }
+          ]
+        }
+      }
+    }
+  }
+  

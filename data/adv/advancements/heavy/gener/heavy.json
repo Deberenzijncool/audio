@@ -1,0 +1,44 @@
+  {
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,-1432004539],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWYzMDJjOWJkYTI4NmIwNzg4YWYwMGZiOWFiZTQ0ZTYwMjAxM2U2NDE3ZjljMjVjNmU1OTVlODBmMjYzZTczNyJ9fX0=\"}]}}}"
+        },
+        "title": {
+            "text": "The heavy is dead?",
+            "color": "#f1c5a5"
+        },
+        "description": {
+            "text": "Correct :D",
+            "color": "dark_aqua"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "adv:heavy/gener/fatman",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 682,
+                            "max": 686
+                        },
+                        "y": {
+                            "min": 25,
+                            "max": 27
+                        },
+                        "z": {
+                            "min": 99797,
+                            "max": 99801
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
