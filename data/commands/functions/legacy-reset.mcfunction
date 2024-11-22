@@ -2,7 +2,7 @@
 
 
 
-# -- Reset light containment zone
+## - Reset light containment zone
 
 # - Reset the sus vent at the start
 
@@ -99,10 +99,10 @@ setblock 796 13 99860 minecraft:air
 # staff tunnel lights
 fill 785 13 99830 785 13 99885 minecraft:air
 
-# -- Reset heavy containment zome
+## - Reset heavy containment zome
 
 
-# -- Reset Entrance Zone
+## - Reset Entrance Zone
 
 
 # - Random Resets
