@@ -1,9 +1,10 @@
 ### Saves Inventory of Ratio to Checkpoint chest
-# Usage: execute as @p[tag=ratio] at @s run function commands:storeitems/server/store
+# Usage: execute as @p[tag=ratio] run function commands:storeitems/server/store
 
 # Reset the chest
 function commands:storeitem/server/reset
 
+# Actual Item replacing
 item replace block 741 4 99838 container.0 from entity @s container.0
 item replace block 741 4 99838 container.1 from entity @s container.1
 item replace block 741 4 99838 container.2 from entity @s container.2

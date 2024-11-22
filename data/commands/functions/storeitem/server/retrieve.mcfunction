@@ -1,5 +1,5 @@
 ### Restores Inventory of Ratio from Checkpoint chest
-# Usage: execute as @p[tag=ratio] at @s run function commands:storeitems/server/retrieve
+# Usage: execute as @p[tag=ratio] run function commands:storeitems/server/retrieve
 
 item replace entity @s container.0 from block 741 4 99838 container.0
 item replace entity @s container.1 from block 741 4 99838 container.1
