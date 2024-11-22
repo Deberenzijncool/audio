@@ -5,7 +5,7 @@
 fill 728 24 99714 735 28 99710 air
 
 # particles
-particle minecraft:explosion_emitter 737.00 26.5 99712.5 0 0 0 1 5
+particle explosion_emitter 737.00 26.5 99712.5 0 0 0 1 5
 
 #rightstabilizerfall.zip
 summon falling_block 728 26 99713 {BlockState:{Properties:{axis:"x"},Name:chain},Time:1}

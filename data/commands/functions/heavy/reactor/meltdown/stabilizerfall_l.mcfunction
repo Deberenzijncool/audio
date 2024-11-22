@@ -5,7 +5,7 @@
 fill 712 28 99714 705 24 99710 air
 
 # particles
-particle minecraft:explosion_emitter 704.0 26.5 99712.5 0 0 0 1 5
+particle explosion_emitter 704.0 26.5 99712.5 0 0 0 1 5
 
 #leftstabilizerfall.zip
 summon falling_block 706 27 99712 {Time:1,BlockState:{Name:red_stained_glass}}

@@ -4,10 +4,10 @@
 # remove old laser blocks
 fill 731 22 99708 724 14 99701 air
 fill 731 14 99700 732 15 99701 air
-fill 732 15 99700 732 14 99700 minecraft:blue_terracotta
+fill 732 15 99700 732 14 99700 blue_terracotta
 
 # particles
-particle minecraft:explosion 732.0 15.0 99701.0 0 0 0 1 3 force
+particle explosion 732.0 15.0 99701.0 0 0 0 1 3 force
 
 #backrightlaserfall.zip
 summon falling_block 725 21 99708 {BlockState:{Properties:{facing:"south"},Name:lightning_rod},Time:1}
