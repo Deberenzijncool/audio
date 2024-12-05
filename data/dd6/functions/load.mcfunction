@@ -12,3 +12,7 @@ scoreboard objectives add datapack dummy
 scoreboard objectives add reactor dummy
 scoreboard objectives add fnaf dummy
 scoreboard objectives add guiding_light dummy
+scoreboard objectives add const dummy
+scoreboard objectives add Coords.X dummy
+scoreboard objectives add Coords.Y dummy
+scoreboard objectives add Coords.Z dummy

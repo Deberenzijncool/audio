@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "minecraft:name_tag",
+        "minecraft:paper",
+        "minecraft:amethyst_shard"
+    ]
+}

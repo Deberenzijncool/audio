@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,-1431746971],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmJjM2U2NzdiYzM1ZmY4OGFiZDRiNmRjYTU0ZjAwYWRhNDQwNzA2YjExY2VjODEyOWM3Zjg4MGJkNjVmNjBkIn19fQ==\"}]}}}"
+        },
+        "title": {
+            "text": "Objectives",
+            "color": "gold"
+        },
+        "description": "",
+        "frame": "goal",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "adv:entrance/root",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": {
+                    "player": {
+                        "advancements": {
+                            "adv:entrance/root": true
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

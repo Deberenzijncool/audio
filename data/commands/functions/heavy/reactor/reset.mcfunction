@@ -20,19 +20,18 @@ setblock 734 35 99732 minecraft:redstone_block
 setblock 733 35 99755 air
 # set reactor vacuum to non-active
 data merge block 713 28 99731 {Text2:'[{"text":"Active: "},{"text":"☒","color":"red"}]'}
-# replace right_door
+
+# replace right and left door
 clone 737 23 99707 737 34 99701 737 23 99709
-# replace left_door
 clone 737 23 99707 737 34 99701 703 23 99709
-# replace right_laser
+
+# replace right_laser x2 and left_laser x2
 clone 744 24 99710 747 28 99714 738 24 99710
-# remove right_laser
 fill 726 24 99710 736 28 99714 air
-# replace left_laser
 clone 759 33 99714 756 29 99710 699 24 99710
-# remove left_laser
 fill 714 28 99714 704 24 99710 air
-# turn off laserlights
+
+# turn off laser lights
 setblock 716 22 99708 light[level=0]
 setblock 724 22 99708 light[level=0]
 setblock 720 20 99712 light[level=0]

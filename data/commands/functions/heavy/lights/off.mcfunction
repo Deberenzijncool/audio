@@ -112,6 +112,7 @@ setblock 693 31 99701 red_wool
 setblock 693 31 99687 red_wool
 setblock 703 48 99815 red_wool
 fill 682 50 99768 680 50 99768 red_wool
+fill 764 48 99767 764 48 99769 red_wool
 
 # Redstone --> wool
 fill 669 50 99754 669 50 99821 red_wool replace redstone_block

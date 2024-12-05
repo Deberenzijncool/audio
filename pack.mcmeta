@@ -1,18 +1,10 @@
 {
   "pack": {
-    "pack_format": 10,
+    "pack_format": 9,
     "description": {
       "text": "Created by DD6 Incorporated",
       "color": "gold",
       "bold": true
     }
-  },
-  "filter": {
-    "block": [
-      {
-        "namespace": "minecraft",
-        "path": "advancements/.*"
-      }
-    ]
   }
 }

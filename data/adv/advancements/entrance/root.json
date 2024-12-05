@@ -1,19 +1,42 @@
 {
-    "display": {
-        "icon": {
-          "item": "minecraft:stone"
-        },
-      "title": "Entrance Zone",
-      "description": "Advancements achieved in Entrance Zone",
-      "frame": "challenge",
-      "show_toast": false,
-      "announce_to_chat": false,
-      "hidden": true
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Id:[I;67411088,-739686879,-1666252800,178950803],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFlZWY4OGUyYzkyOGI0NjZjNmVkNWRlYWE0ZTE5NzVhOTQzNmMyYjFiNDk4ZjlmN2NiZjkyYTliNTk5YTYifX19\"}]}}}"
     },
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
+    "title": {
+      "text": "Entrance Zone",
+      "color": "gold"
+    },
+    "description": {
+      "text": "New area unlocked! Entrance zone!",
+      "color": "dark_aqua"
+    },
+    "background": "textures/block/cyan_terracotta.png",
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "position": {
+          "x": {
+            "min": 688,
+            "max": 692
+          },
+          "y": {
+            "min": 43,
+            "max": 45
+          },
+          "z": {
+            "min": 99765,
+            "max": 99771
+          }
+        }
       }
     }
   }
-  
+}
